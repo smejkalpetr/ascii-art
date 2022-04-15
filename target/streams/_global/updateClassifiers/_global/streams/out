@@ -1,4 +1,3 @@
-[warn] scala-library-2.13.3-sources.jar no longer exists at /Users/smejkalp/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3-sources.jar
-[debug] "not up to date. inChanged = false, force = false
-[debug] Updating ProjectRef(uri("file:/Users/smejkalp/Documents/FIT/OOP/asciiart/"), "asciiart")...
-[debug] Done updating ProjectRef(uri("file:/Users/smejkalp/Documents/FIT/OOP/asciiart/"), "asciiart")
+[debug] "not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/Users/smejkalp/Developer/ascii-art/"), "ascii-art")...
+[debug] Done updating ProjectRef(uri("file:/Users/smejkalp/Developer/ascii-art/"), "ascii-art")
