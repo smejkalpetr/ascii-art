@@ -1,1 +1,31 @@
 # ASCII Art
+
+This program was created as a semestral project at my university as part of a subject named BI-OOP (Object Oriented Programming). It's my first MVC-like app that I've ever written. I wrote this in my third semester of studies - 12/2019.
+
+The subject's intention was to ephasise the importance of some OOP techniques as well as clean code (as clean as it was possible for the time and experience I had). It's was also the first time that I used mocking and unit testing.
+
+---
+
+### How to run the program
+
+You will need to provide an input .jpg (.jpeg) or .png image with a launch option `+--image <path_to_image>+`. Then, you need to decide how the result is supposed to be output. Choose `+--output-file <output_path>+` or `+--output-console+` for the result to be printed directly to the console. You can combine the two previous options. Finally, the program offers a `+--invert+` option which inverts color for each pixel before converting to ASCII art.
+
+If you're using IntelliJ IDEA, to add the program's arguments you need to adjust the setting by going to upper menu bar: `+Run > Edit Configurations..+`, field `+Program Arguments+` will do the job for you (using IntelliJ IDEA 2021.3.1). Don't forget to build the project at first, you may see no configurations whatsoever otherwise.
+
+---
+
+### Example screenshots
+
+#### Input image: 
+
+image::examples/me.jpg[alt=Profile picture, width=1180]
+
+#### Used command:
+
+`+--image ~/Desktop/profile.jpg --output-file ~/Desktop/profile_ascii.txt+`
+
+_Note that the output file is always a text file._
+
+#### Output image:
+
+image::examples/me-ascii.png[alt=Result, width=1180]
